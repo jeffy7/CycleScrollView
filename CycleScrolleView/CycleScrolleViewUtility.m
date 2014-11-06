@@ -197,7 +197,11 @@ const static NSTimeInterval _interval = 3.0f;
 
 
 - (void)startAnimation {
-    [_scrollerView setContentOffset:CGPointMake(_scrollerView.contentOffset.x*2,_scrollerView.contentOffset.y) animated:YES];
+    if (_scrollDirection == CycleDirectionVertical) {
+        [_scrollerView setContentOffset:CGPointMake(_scrollerView.contentOffset.x,_scrollerView.contentOffset.y*2) animated:YES];
+    }else if (_scrollDirection == CycleDirectionHorizontal) {
+        [_scrollerView setContentOffset:CGPointMake(_scrollerView.contentOffset.x*2,_scrollerView.contentOffset.y) animated:YES];
+    }
     
 }
 

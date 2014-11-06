@@ -23,7 +23,6 @@
 		17908C4F1A07DBC700D7E619 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17908C441A07DBC700D7E619 /* 6.jpg */; };
 		17908C501A07DBC700D7E619 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17908C451A07DBC700D7E619 /* 7.jpg */; };
 		17908C511A07DBC700D7E619 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17908C461A07DBC700D7E619 /* 8.jpg */; };
-		17908C521A07DBC700D7E619 /* photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17908C471A07DBC700D7E619 /* photos.plist */; };
 		17908C531A07DBC700D7E619 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 17908C481A07DBC700D7E619 /* Thumbs.db */; };
 		17908C561A07E16C00D7E619 /* NSTimer+Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 17908C551A07E16C00D7E619 /* NSTimer+Control.m */; };
 /* End PBXBuildFile section */
@@ -62,7 +61,6 @@
 		17908C441A07DBC700D7E619 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		17908C451A07DBC700D7E619 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		17908C461A07DBC700D7E619 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		17908C471A07DBC700D7E619 /* photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = photos.plist; sourceTree = "<group>"; };
 		17908C481A07DBC700D7E619 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		17908C541A07E16C00D7E619 /* NSTimer+Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Control.h"; sourceTree = "<group>"; };
 		17908C551A07E16C00D7E619 /* NSTimer+Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Control.m"; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				17908C441A07DBC700D7E619 /* 6.jpg */,
 				17908C451A07DBC700D7E619 /* 7.jpg */,
 				17908C461A07DBC700D7E619 /* 8.jpg */,
-				17908C471A07DBC700D7E619 /* photos.plist */,
 				17908C481A07DBC700D7E619 /* Thumbs.db */,
 			);
 			path = "测机图片";
@@ -249,7 +246,6 @@
 			files = (
 				17908C511A07DBC700D7E619 /* 8.jpg in Resources */,
 				17908C4D1A07DBC700D7E619 /* 4.jpg in Resources */,
-				17908C521A07DBC700D7E619 /* photos.plist in Resources */,
 				17908C4F1A07DBC700D7E619 /* 6.jpg in Resources */,
 				17908C501A07DBC700D7E619 /* 7.jpg in Resources */,
 				17908C4B1A07DBC700D7E619 /* 2.jpg in Resources */,
@@ -466,6 +462,7 @@
 				17908C2E1A07ACA300D7E619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17908C2F1A07ACA300D7E619 /* Build configuration list for PBXNativeTarget "CycleScrolleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +471,7 @@
 				17908C311A07ACA300D7E619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

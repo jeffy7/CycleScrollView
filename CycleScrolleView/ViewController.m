@@ -29,7 +29,7 @@
     [array addObject:[UIImage imageNamed:@"7.jpg"]];
     [array addObject:[UIImage imageNamed:@"8.jpg"]];
 
-    CycleScrolleViewUtility *cycleScrollView = [[CycleScrolleViewUtility alloc] initScrolleViewWithFrame:self.view.bounds direction:CycleDirectionHorizontal pictures:array];
+    CycleScrolleViewUtility *cycleScrollView = [[CycleScrolleViewUtility alloc] initScrolleViewWithFrame:self.view.bounds direction:CycleDirectionVertical pictures:array];
     [self.view addSubview:cycleScrollView];
     [cycleScrollView release];
     [array release];
